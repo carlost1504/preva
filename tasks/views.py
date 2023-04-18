@@ -3,6 +3,7 @@ from django.http import HttpResponse
 from django.contrib.auth.forms import UserCreationForm,AuthenticationForm
 from django.contrib.auth.models import User
 from django.contrib.auth import login, logout,authenticate
+from .forms import form_Donacion
 
 # Create your views here.
 def home(request):
@@ -69,4 +70,3 @@ def signin(request):
             login(request,user)
             return redirect('tasks')
         
-    
