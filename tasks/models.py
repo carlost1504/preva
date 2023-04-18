@@ -9,3 +9,4 @@ class Task(models.Model):
     deteCompleted= models.DateTimeField(null=True)
     important=models.BooleanField(default=False)
     user= models.ForeignKey(User, on_delete=models.CASCADE)
+
