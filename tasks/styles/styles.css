@@ -1,0 +1,51 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Estilos del encabezado */
+  header {
+    background-color: #f3f3f3;
+    padding: 10px 0;
+  }
+  
+  .navbar-style-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .BrandName {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item {
+    margin-right: 15px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #666;
+  }

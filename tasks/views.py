@@ -11,6 +11,8 @@ def home(request):
     #return HttpResponse(title)
     return render(request, 'home.html')
 
+def hometemplete(request):
+    return render(request, 'hometemplete.html')
 
 def signup(request):
 
@@ -73,3 +75,7 @@ def signin(request):
 def donation(request):
     form = form_Donacion()
     return render(request, 'donation.html', {'form': form})
+
+def login(request):
+    return render(request,'login.html')
+
